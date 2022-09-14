@@ -26,7 +26,7 @@ else if (userQuestion2 === 'n' || userQuestion2 === 'no') {
   alert('Sorry, you are WRONG')
 }
 
-let userQuestion3 = prompt('Am I from PERU??').toLowerCase();
+let userQuestion3 = prompt('Am I from PERU??');
 if (userQuestion3 === 'y' || userQuestion3 === 'yes') {
   alert('DING DING DING You are correct!');
 }
@@ -50,7 +50,10 @@ else if (userQuestion5 === 'y' || userQuestion5 === 'yes') {
   alert('Sorry, you are WRONG');
 }
 
-let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' of' + userQuestion1 + ' years of age.' + ' Do you like PEPSI or COKE?');
+let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' Do you like PEPSI or COKE?');
+
+
+
 
 
 
