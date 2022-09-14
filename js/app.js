@@ -1,17 +1,58 @@
 'use strict';
 
-console.log('hey world heyyyy!');
+console.log('HELLO WORLD');
 
-let visitorName = prompt('What is your name?');
+let userAskName = prompt('Greetings and Salutations Codefellows Citizen!' + ' What is your name?');
 
-alert(`Welcome to my site ${visitorName}! Please guess yes or no to the following questions`);
+alert('WELCOME TO THE JUNGLE ' + userAskName + '!!!!!');
 
-let questionOneGuess = prompt('Do I have a daughter?').toUpperCase();
+let askQuestion1 = prompt(' Do you want to play a game? ' + userAskName);
 
-if(questionOneGuess === 'Y' || questionOneGuess === 'YES'){
+alert('HINT- It does not matter what you want, WE ARE PLAYING!!! BUWAHAHAHAHA!!!');
+
+let userQuestion1 = prompt('is my name Joey?');
+if (userQuestion1 === 'y' || userQuestion1 === 'yes') {
   alert('You are correct!');
-} else if(questionOneGuess === 'N' || questionOneGuess === 'NO'){
-  alert('Sorry, you are wrong');
+}
+else if (userQuestion1 === 'n' || userQuestion1 === 'no') {
+  alert('Sorry, you are WRONG');
 }
 
-alert(`Thanks for playing ${visitorName}`);
+let userQuestion2 = prompt('Do I have 3 sons?');
+if (userQuestion2 === 'y' || userQuestion2 === 'yes') {
+  alert('You are correct!');
+}
+else if (userQuestion2 === 'n' || userQuestion2 === 'no') {
+  alert('Sorry, you are WRONG')
+}
+
+let userQuestion3 = prompt('Am I from PERU??').toLowerCase();
+if (userQuestion3 === 'y' || userQuestion3 === 'yes') {
+  alert('DING DING DING You are correct!');
+}
+else if (userQuestion3 === 'n' || userQuestion3 === 'no') {
+  alert('Sorry, you are WRONG');
+
+}
+let userQuestion4 = prompt('I am a military veteran?');
+if (userQuestion4 === 'y' || userQuestion4 === 'yes') {
+  alert('You are correct!');
+}
+else if (userQuestion4 === 'n' || userQuestion4 === 'no') {
+  alert('Sorry, you are WRONG');
+}
+
+let userQuestion5 = prompt('Did I live in Africa?');
+if (userQuestion5 === 'n' || userQuestion5 === 'no') {
+  alert('You are correct!');
+}
+else if (userQuestion5 === 'y' || userQuestion5 === 'yes') {
+  alert('Sorry, you are WRONG');
+}
+
+let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' of' + userQuestion1 + ' years of age.' + ' Do you like PEPSI or COKE?');
+
+
+
+alert('FATAL ERROR 401.' + userAskName + 'THE FINAL COUNTDOWN HAS COMMENCED. Goodbye.');
+

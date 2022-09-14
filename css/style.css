@@ -1,7 +1,23 @@
 body {
-  background-color: rgb(132, 132, 173);
+  background-color: rgb(140, 211, 34)
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 6vw;
+  text-emphasis-color: rgba(144, 0, 255, 0.819);
+  text-align: center;
+}
+
+p {
+  color: rgb(81, 0, 255);
+  text-align: center;
+}
+
+img {
+  border-radius: 3vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
