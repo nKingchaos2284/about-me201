@@ -55,7 +55,3 @@ let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' Do you l
 
 
 
-
-
-alert('FATAL ERROR 401.' + userAskName + 'THE FINAL COUNTDOWN HAS COMMENCED. Goodbye.');
-
