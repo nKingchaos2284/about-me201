@@ -52,6 +52,8 @@ else if (userQuestion5 === 'y' || userQuestion5 === 'yes') {
 
 let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' Do you like PEPSI or COKE?');
 
+alert('FATAL ERROR 401.' + userAskName + 'THE FINAL COUNTDOWN HAS COMMENCED. Goodbye.');
+
 
 
 
