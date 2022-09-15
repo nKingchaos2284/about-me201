@@ -26,6 +26,10 @@ This is also a good place to reflect on the tools and resources used and learned
 
 #### LAB 04
 
+Driver = Steven Rejdukowski
+
+Navigator = Joey Cabrera
+
 
 ### LAB 05
 
