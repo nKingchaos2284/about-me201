@@ -2,7 +2,7 @@
 
 console.log('HELLO WORLD');
 
-let userAskName = prompt('Greetings and Salutations Codefellows Citizen!' + ' What is your name?').toLowerCase();
+let userAskName = prompt('Greetings and Salutations Codefellows Citizen!' + ' What is your name?');
 
 alert('WELCOME TO THE JUNGLE ' + userAskName + '!!!!!');
 
