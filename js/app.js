@@ -50,10 +50,8 @@ else if (userQuestion5 === 'y' || userQuestion5 === 'yes') {
   alert('Sorry, you are WRONG');
 }
 
-let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' Do you like PEPSI or COKE?');
+let favNumber = prompt('HEY,' + userAskName + ' what do you think my favorite number is?');
 
 alert('FATAL ERROR 404 ' + userAskName + ' Goodbye.');
-
-
 
 
