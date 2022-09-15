@@ -1,22 +1,22 @@
 body {
   background-color: rgb(140, 211, 34);
-  text-align: center;
-  font-size: 18px;
   color: indigo;
   font-style: italic;
+  text-align: center;
+  font-weight: 600;
+
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 3vw;
   text-emphasis-color: rgba(144, 0, 255, 0.819);
-  text-align: center;
   text-decoration: underline;
   text-decoration-color: blue;
-
+  text-align: center;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 2vw;
   text-emphasis-color: rgba(144, 0, 255, 0.819);
   text-align: center;
   text-decoration: underline;
@@ -24,55 +24,47 @@ h2 {
 
 }
 
+h3 {
+  font-size: 2vw;
+  color: navy;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 187, 255);
+
+}
+
 p {
 
-  color: rgb(81, 0, 255);
-  text-align: center;
-  font-size: 22px;
-  text-indent: 0px;
-
-}
-
-  ol
-
-  {
-  text-align: center;
-  text-justify: auto;
-  font: bolder;
   font-size: 16px;
-  font-family: monospace;
-  list-style-position: inside;
-  list-style: square;
-  
-}
-
-ul 
-
-  { 
   text-align: center;
-  text-justify: auto;
-  font: bold;
-  font-size: 16px;
-  font-family: fantasy;
-  list-style-position: inside;
-  list-style: square;
-  color: darkorange;
-  
+
 }
 
-li {
-    list-style: square;
- }
+ol {
+  text-align: center;
+  font-size: 16px;
+  font-family: Franklin Gothic medium;
+  font-weight: bold;
+  list-style-position: inside;
+  list-style-type: decimal;
+}
 
+ul {
+  font-size: 16px;
+  font-family: cursive;
+  color: rgb(170, 96, 5);
+  list-style-position: inside;
+  list-style-type: square;
+
+}
 
 img {
-  border-radius: 3vw;
+  border-radius: 100px;
   align-self: center;
-  border: 29px;
+  border: 22px;
   border-color: rgb(136, 0, 255);
   border-style: groove;
   max-width: 100%;
   height: auto;
 
 }
-
