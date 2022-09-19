@@ -1,69 +1,69 @@
 'use strict';
 
+console.log('hello world, I AM ALIVE!!')
 
+function introUser(){
 
-console.log('HELLO WORLD');
+let userName = prompt ('what is your name');
 
-
-function promptone() {
-
-  let userAskName = prompt('Greetings and Salutations Codefellows Citizen!' + ' What is your name?');
-
-  alert('WELCOME TO THE JUNGLE ' + userAskName + '!!!!!');
+  alert('WELCOME TO THE JUNGLE ${userName} ! lets play a game. you have to answer yes or no. get it?');
 }
-promptone();
+  
+introUser();
 
-function gamegame() 
+let userPoints = 0;
 
-{
-
-  let askQuestionOne = prompt(' Do you want to play a game? ' + userAskName).toLowerCase();
-
-  alert('HINT- It does not matter what you want, WE ARE PLAYING!!! BUWAHAHAHAHA!!! You MUST answer Yes or No.');
-}
-
-gamegame();
-
-function namejoey() {
+function nameJoey(){
 
   let userQuestionOne = prompt('is my name Joey?').toLowerCase();
+  console.log(userQuestionOne);
   if (userQuestionOne === 'y' || userQuestionOne === 'yes') {
+  
     alert('You are correct!');
-  }
-  else if (userQuestionOne === 'n' || userQuestionOne === 'no') {
+    userPoints++;
+  } else if (userQuestionOne === 'n' || userQuestionOne === 'no') {
+
     alert('Sorry, you are WRONG');
   }
+
 }
 
-namejoey();
+nameJoey();
 
-function sons() {
+
+function sons(){
 
   let userQuestionTwo = prompt('Do I have 3 sons?').toLowerCase();
+  console.log(userQuestionTwo);
   if (userQuestionTwo === 'y' || userQuestionTwo === 'yes') {
     alert('You are correct!');
-  }
-  else if (userQuestionTwo === 'n' || userQuestionTwo === 'no') {
-    alert('Sorry, you are WRONG')
+    userPoints++;
+
+  } else if (userQuestionTwo === 'n' || userQuestionTwo === 'no') {
+
+    alert('Sorry, you are WRONG');
   }
 }
 
 sons();
 
 
-function peru() {
-  let userQuestionThree = prompt('Am I from PERU??');
+function peru(){
+  let userQuestionThree = prompt('Am I from PERU??').toLowerCase();
+  console.log(userQuestionTwo);
   if (userQuestionThree === 'y' || userQuestionThree === 'yes') {
     alert('DING DING DING You are correct!');
-  }
-  
-  else if (userQuestionThree === 'n' || userQuestionThree === 'no') {
+    userPoint++
+
+  } else if (userQuestionThree === 'n' || userQuestionThree === 'no') {
+
     alert('Sorry, you are WRONG');
 
   }
 }
-
 peru();
+
+
 
 function vet() {
 
@@ -72,6 +72,7 @@ function vet() {
     alert('You are correct!');
   }
   else if (userQuestionFour === 'n' || userQuestionFour === 'no') {
+
     alert('Sorry, you are WRONG');
   }
 }
@@ -81,10 +82,10 @@ vet();
 function africa() {
 
   let userQuestionFive = prompt('Did I live in Africa?').toLowerCase();
-  if (userQuestionFive === 'n' || userQuestionFive === 'no') {
+  if (userQuestionFive === 'y' || userQuestionFive === 'yes') {
     alert('You are correct!');
-  }
-  else if (userQuestionFive === 'y' || userQuestionFive === 'yes') {
+
+  } else if (userQuestionFive === 'n' || userQuestionFive === 'no') {
     alert('Sorry, you are WRONG');
   }
 }
@@ -92,35 +93,69 @@ function africa() {
 africa();
 
 
-function bonus() {
+function bonus(){
 
-let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' Do you like PEPSI or COKE?');
+  let bonusQuestion = prompt('HEY, one final question ' + userAskName + ' Do you like PEPSI or COKE?');
 
-alert('FATAL ERROR 404 ' + userAskName + ' Goodbye.');
-
+  alert('FATAL ERROR 404 ' + userAskName + ' Goodbye.');
 }
 
-bonus();
+  bonus();
 
 
-{
+function whatWhat(){ 
+ 
 let attempts = 4;
-while(attempts > 0 )
-  let userQuestionSix = prompt('Whats my favorite number? 1- 33.25');
-  attempts--;
-  if(parseInt(userQuestionSix) === 13)
-    alert(userQuestionSix);
+while (attempts > 0 ){
+let userQuestionSix = prompt('Whats my favorite number? 1- 20');
+attempts--;
+if (userInt(userQuestionSix) === 13){
+  console.log(userQuestionSix);
+
     alert('CORRECT! 13 is My Lucky number!');
-    userPoints++;
-    break;
-    
-    
-    {
+  userPoints++;
+  break;
 
-  else if(userQuestionSix > 13)
+} else if (userQuestionSix > 13){
     alert('SORRY! You are high as a kite young buck!');
-
-  if(attempts === 0 )
-    alert('tsk, tsk, tsk, smh, my FAVORITE and LUCKY number is 13');
-  
 }
+  if (attempts === 0)
+    alert('tsk, tsk, tsk, smh, my FAVORITE and LUCKY number is 13');
+} 
+}
+
+userInt();
+
+function southPark(){
+
+  const cartoons = ['doc mcstuffins ', ' thundercats', ' rick and morty', ' south park', 'american dad', 'family guy', 'my little pony'];
+  
+  
+  
+  let numTrys = 0;
+  let correct = false;
+  
+  while (numTrys < 6 && correct === false) {
+    let  userQuestionSeven = prompt('Name a brand of shoes in my top 10').toLowerCase();
+    for (let i = 0; i < cartoons.length; i++) {
+      if (cartoons[i] ===  userQuestionSeven) {
+        alert(`well, well, I like to laugh. who you were correct! ${cartoons}.`);
+        correct = true;
+        userPoints++;
+        break;
+      }
+    }
+    numTrys++;
+    if (correct === false) {
+      alert('EEEEEEEEHHHHKK. WRONG');
+    }
+  }
+  if (correct === false) {
+    alert(`tsk, tsk, look at it again ${cartoons}.`);
+  }
+  }
+  
+  southPark();
+  
+  {
+    alert(`Thanks for taking my quiz, ${userName}. Your score was ${userPoints} out of 7`);}

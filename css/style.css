@@ -9,15 +9,14 @@ body {
 
 h1 {
   font-size: 3vw;
-  text-emphasis-color: rgba(144, 0, 255, 0.819);
   text-decoration: underline;
   text-decoration-color: blue;
   text-align: center;
 }
 
 h2 {
+
   font-size: 2vw;
-  text-emphasis-color: rgba(144, 0, 255, 0.819);
   text-align: center;
   text-decoration: underline;
   text-decoration-color: rgb(234, 0, 255);
