@@ -142,8 +142,6 @@ function southPark() {
   while (numTrys < 6 && correct === false) {
     let userQuestionSeven = prompt('can you guess my favorite cartoon?').toLowerCase();
 
-    
-    
     for (let i = 0; i < cartoons.length; i++) {
       if (cartoons[i] === userQuestionSeven) {
         alert(`well, well, I like to laugh. who you were correct! ${cartoons}.`);
@@ -152,14 +150,14 @@ function southPark() {
         break;
       }
     }
-    numTrys++;
+    
   }
     if (correct === false) {
     alert('EEEEEEEEHHHHKK. WRONG');
   }
 if (correct === false) {
   alert(`tsk, tsk, look at it again ${cartoons}.`);
-}
+}numTrys++;
 }
 southPark();
 
